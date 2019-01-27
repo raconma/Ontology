@@ -1,0 +1,325 @@
+<http://espaciosOcioMadrid/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://espaciosOcioMadrid/> <http://www.w3.org/2000/01/rdf-schema#label> "Espacios de ocio"@es .
+<http://espaciosOcioMadrid/> <http://www.w3.org/2000/01/rdf-schema#label> "Espacios de ocio" .
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://espaciosOcioMadrid/Barrio
+<http://espaciosOcioMadrid/Barrio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://espaciosOcioMadrid/Barrio> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://espaciosOcioMadrid/Barrio> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://espaciosOcioMadrid/Barrio> <http://www.w3.org/2000/01/rdf-schema#label> "Barrio" .
+# 
+# http://espaciosOcioMadrid/ClaseVial
+<http://espaciosOcioMadrid/ClaseVial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://espaciosOcioMadrid/ClaseVial> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://espaciosOcioMadrid/ClaseVial> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://espaciosOcioMadrid/ClaseVial> <http://www.w3.org/2000/01/rdf-schema#label> "ClaseVial" .
+# 
+# http://espaciosOcioMadrid/Distrito
+<http://espaciosOcioMadrid/Distrito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://espaciosOcioMadrid/Distrito> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://espaciosOcioMadrid/Distrito> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://espaciosOcioMadrid/Distrito> <http://www.w3.org/2000/01/rdf-schema#label> "Distrito" .
+# 
+# http://espaciosOcioMadrid/Equipamiento
+<http://espaciosOcioMadrid/Equipamiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://espaciosOcioMadrid/Equipamiento> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://espaciosOcioMadrid/Equipamiento> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://espaciosOcioMadrid/Equipamiento> <http://www.w3.org/2000/01/rdf-schema#label> "Equipamiento" .
+# 
+# http://espaciosOcioMadrid/Escalera
+<http://espaciosOcioMadrid/Escalera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://espaciosOcioMadrid/Escalera> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://espaciosOcioMadrid/Escalera> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://espaciosOcioMadrid/Escalera> <http://www.w3.org/2000/01/rdf-schema#label> "Escalera" .
+# 
+# http://espaciosOcioMadrid/EstacionBicicleta
+<http://espaciosOcioMadrid/EstacionBicicleta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://espaciosOcioMadrid/EstacionBicicleta> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://espaciosOcioMadrid/EstacionBicicleta> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://espaciosOcioMadrid/EstacionBicicleta> <http://www.w3.org/2000/01/rdf-schema#label> "EstacionBicicleta" .
+# 
+# http://espaciosOcioMadrid/NumeroCalle
+<http://espaciosOcioMadrid/NumeroCalle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://espaciosOcioMadrid/NumeroCalle> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://espaciosOcioMadrid/NumeroCalle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://espaciosOcioMadrid/NumeroCalle> <http://www.w3.org/2000/01/rdf-schema#label> "NumeroCalle" .
+# 
+# http://espaciosOcioMadrid/Orientacion
+<http://espaciosOcioMadrid/Orientacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://espaciosOcioMadrid/Orientacion> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://espaciosOcioMadrid/Orientacion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://espaciosOcioMadrid/Orientacion> <http://www.w3.org/2000/01/rdf-schema#label> "Orientacion" .
+# 
+# http://espaciosOcioMadrid/Planta
+<http://espaciosOcioMadrid/Planta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://espaciosOcioMadrid/Planta> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://espaciosOcioMadrid/Planta> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://espaciosOcioMadrid/Planta> <http://www.w3.org/2000/01/rdf-schema#label> "Planta" .
+# 
+# http://espaciosOcioMadrid/Puerta
+<http://espaciosOcioMadrid/Puerta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://espaciosOcioMadrid/Puerta> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://espaciosOcioMadrid/Puerta> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://espaciosOcioMadrid/Puerta> <http://www.w3.org/2000/01/rdf-schema#label> "Puerta" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://espaciosOcioMadrid/
+<http://espaciosOcioMadrid/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+# 
+# http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos> <http://www.w3.org/2000/01/rdf-schema#label> "Culturales, Sociales, Científicos y Artisticos"@es .
+# 
+# http://espaciosOcioMadrid/Deportivos
+<http://espaciosOcioMadrid/Deportivos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/Deportivos> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/> .
+<http://espaciosOcioMadrid/Deportivos> <http://www.w3.org/2000/01/rdf-schema#label> "Deportivos"@es .
+# 
+# http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/AuditoriosSalasConcierto
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/AuditoriosSalasConcierto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/AuditoriosSalasConcierto> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/AuditoriosSalasConcierto> <http://www.w3.org/2000/01/rdf-schema#label> "Auditorios Salas Concierto"@es .
+# 
+# http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosCulturales
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosCulturales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosCulturales> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosCulturales> <http://www.w3.org/2000/01/rdf-schema#label> "Centros Culturales"@es .
+# 
+# http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosServiciosSociales
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosServiciosSociales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosServiciosSociales> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosServiciosSociales> <http://www.w3.org/2000/01/rdf-schema#label> "Centros servicios Sociales"@es .
+# 
+# http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CinesFilmotecas
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CinesFilmotecas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CinesFilmotecas> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CinesFilmotecas> <http://www.w3.org/2000/01/rdf-schema#label> "Cines Filmotecas"@es .
+# 
+# http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/FundacionesCulturales
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/FundacionesCulturales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/FundacionesCulturales> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/FundacionesCulturales> <http://www.w3.org/2000/01/rdf-schema#label> "Fundaciones Culturales"@es .
+# 
+# http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/MonumentosEdificiosArtisticos
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/MonumentosEdificiosArtisticos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/MonumentosEdificiosArtisticos> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/MonumentosEdificiosArtisticos> <http://www.w3.org/2000/01/rdf-schema#label> "Monumenos Edificios Artísticos"@es .
+# 
+# http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Museos
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Museos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Museos> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Museos> <http://www.w3.org/2000/01/rdf-schema#label> "Museos"@es .
+# 
+# http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Planetarios
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Planetarios> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Planetarios> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Planetarios> <http://www.w3.org/2000/01/rdf-schema#label> "Planetarios"@es .
+# 
+# http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasEstudioLecturas
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasEstudioLecturas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasEstudioLecturas> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasEstudioLecturas> <http://www.w3.org/2000/01/rdf-schema#label> "Salas Estudio Lecturas"@es .
+# 
+# http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasExposiciones
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasExposiciones> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasExposiciones> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasExposiciones> <http://www.w3.org/2000/01/rdf-schema#label> "Salas Exposiciones"@es .
+# 
+# http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Teatro
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Teatro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Teatro> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Teatro> <http://www.w3.org/2000/01/rdf-schema#label> "Teatro"@es .
+# 
+# http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosIglesiasCatolica
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosIglesiasCatolica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosIglesiasCatolica> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosIglesiasCatolica> <http://www.w3.org/2000/01/rdf-schema#label> "Templos Iglesias Catolica"@es .
+# 
+# http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosOtras
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosOtras> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosOtras> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosOtras> <http://www.w3.org/2000/01/rdf-schema#label> "Templos Otras Religiones"@es .
+# 
+# http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/oficinaInformacionJuvenil
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/oficinaInformacionJuvenil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/oficinaInformacionJuvenil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos> .
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/oficinaInformacionJuvenil> <http://www.w3.org/2000/01/rdf-schema#label> "Oficinas Información Juvenil"@es .
+# 
+# http://espaciosOcioMadrid/Deportivos/CamposEstadiosFultbol
+<http://espaciosOcioMadrid/Deportivos/CamposEstadiosFultbol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/Deportivos/CamposEstadiosFultbol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/Deportivos> .
+<http://espaciosOcioMadrid/Deportivos/CamposEstadiosFultbol> <http://www.w3.org/2000/01/rdf-schema#label> "Campos Estadios Futbol"@es .
+# 
+# http://espaciosOcioMadrid/Deportivos/CentrosDeportivos
+<http://espaciosOcioMadrid/Deportivos/CentrosDeportivos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/Deportivos/CentrosDeportivos> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/Deportivos> .
+<http://espaciosOcioMadrid/Deportivos/CentrosDeportivos> <http://www.w3.org/2000/01/rdf-schema#label> "Centros Deportivos"@es .
+# 
+# http://espaciosOcioMadrid/Deportivos/Embarcaderos
+<http://espaciosOcioMadrid/Deportivos/Embarcaderos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/Deportivos/Embarcaderos> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/Deportivos> .
+<http://espaciosOcioMadrid/Deportivos/Embarcaderos> <http://www.w3.org/2000/01/rdf-schema#label> "Embarcaderos"@es .
+# 
+# http://espaciosOcioMadrid/Deportivos/Gimnasios
+<http://espaciosOcioMadrid/Deportivos/Gimnasios> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/Deportivos/Gimnasios> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/Deportivos> .
+<http://espaciosOcioMadrid/Deportivos/Gimnasios> <http://www.w3.org/2000/01/rdf-schema#label> "Gimnasios"@es .
+# 
+# http://espaciosOcioMadrid/Deportivos/Piscinas
+<http://espaciosOcioMadrid/Deportivos/Piscinas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/Deportivos/Piscinas> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/Deportivos> .
+<http://espaciosOcioMadrid/Deportivos/Piscinas> <http://www.w3.org/2000/01/rdf-schema#label> "Piscinas"@es .
+# 
+# http://espaciosOcioMadrid/Deportivos/PistaBadminton
+<http://espaciosOcioMadrid/Deportivos/PistaBadminton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/Deportivos/PistaBadminton> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/Deportivos> .
+<http://espaciosOcioMadrid/Deportivos/PistaBadminton> <http://www.w3.org/2000/01/rdf-schema#label> "Pistas Badminton"@es .
+# 
+# http://espaciosOcioMadrid/Deportivos/PistaPatinaje
+<http://espaciosOcioMadrid/Deportivos/PistaPatinaje> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/Deportivos/PistaPatinaje> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/Deportivos> .
+<http://espaciosOcioMadrid/Deportivos/PistaPatinaje> <http://www.w3.org/2000/01/rdf-schema#label> "Pistas Patinaje"@es .
+# 
+# http://espaciosOcioMadrid/ParquesyJardines/
+<http://espaciosOcioMadrid/ParquesyJardines/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/ParquesyJardines/> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/> .
+<http://espaciosOcioMadrid/ParquesyJardines/> <http://www.w3.org/2000/01/rdf-schema#label> "Parques y Jardínes"@es .
+# 
+# http://espaciosOcioMadrid/ParquesyJardines/ColeccionesBotanicas
+<http://espaciosOcioMadrid/ParquesyJardines/ColeccionesBotanicas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/ParquesyJardines/ColeccionesBotanicas> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/ParquesyJardines/> .
+<http://espaciosOcioMadrid/ParquesyJardines/ColeccionesBotanicas> <http://www.w3.org/2000/01/rdf-schema#label> "Colecciones Botanicas"@es .
+# 
+# http://espaciosOcioMadrid/ParquesyJardines/ParquesForestales
+<http://espaciosOcioMadrid/ParquesyJardines/ParquesForestales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/ParquesyJardines/ParquesForestales> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/ParquesyJardines/> .
+<http://espaciosOcioMadrid/ParquesyJardines/ParquesForestales> <http://www.w3.org/2000/01/rdf-schema#label> "Parques Forestales"@es .
+# 
+# http://espaciosOcioMadrid/ParquesyJardines/ParquesHistoricos
+<http://espaciosOcioMadrid/ParquesyJardines/ParquesHistoricos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/ParquesyJardines/ParquesHistoricos> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/ParquesyJardines/> .
+<http://espaciosOcioMadrid/ParquesyJardines/ParquesHistoricos> <http://www.w3.org/2000/01/rdf-schema#label> "Parques Históricos"@es .
+# 
+# http://espaciosOcioMadrid/ParquesyJardines/ParquesJardines
+<http://espaciosOcioMadrid/ParquesyJardines/ParquesJardines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://espaciosOcioMadrid/ParquesyJardines/ParquesJardines> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://espaciosOcioMadrid/ParquesyJardines/> .
+<http://espaciosOcioMadrid/ParquesyJardines/ParquesJardines> <http://www.w3.org/2000/01/rdf-schema#label> "Parques Jardines"@es .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid1 <http://www.w3.org/2002/07/owl#members> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/Deportivos> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/AuditoriosSalasConcierto> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosCulturales> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosServiciosSociales> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CinesFilmotecas> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/FundacionesCulturales> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/MonumentosEdificiosArtisticos> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Museos> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Planetarios> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasEstudioLecturas> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasExposiciones> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Teatro> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosIglesiasCatolica> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosOtras> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/oficinaInformacionJuvenil> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/Deportivos/CamposEstadiosFultbol> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/Deportivos/CentrosDeportivos> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/Deportivos/Embarcaderos> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/Deportivos/Gimnasios> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/Deportivos/Piscinas> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/Deportivos/PistaBadminton> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/Deportivos/PistaPatinaje> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/ParquesyJardines/> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/ParquesyJardines/ColeccionesBotanicas> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/ParquesyJardines/ParquesForestales> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/ParquesyJardines/ParquesHistoricos> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://espaciosOcioMadrid/ParquesyJardines/ParquesJardines> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+# Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/

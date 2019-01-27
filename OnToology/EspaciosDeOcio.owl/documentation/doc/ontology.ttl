@@ -1,0 +1,302 @@
+@prefix : <http://espaciosOcioMadrid/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://espaciosOcioMadrid/> .
+
+<http://espaciosOcioMadrid/> rdf:type owl:Ontology ;
+                              rdfs:label "Espacios de ocio"@es ,
+                                         "Espacios de ocio" .
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://espaciosOcioMadrid/Barrio
+:Barrio rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty ;
+        rdfs:range xsd:string ;
+        rdfs:label "Barrio" .
+
+
+###  http://espaciosOcioMadrid/ClaseVial
+:ClaseVial rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:range xsd:string ;
+           rdfs:label "ClaseVial" .
+
+
+###  http://espaciosOcioMadrid/Distrito
+:Distrito rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:range xsd:string ;
+          rdfs:label "Distrito" .
+
+
+###  http://espaciosOcioMadrid/Equipamiento
+:Equipamiento rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdfs:range xsd:string ;
+              rdfs:label "Equipamiento" .
+
+
+###  http://espaciosOcioMadrid/Escalera
+:Escalera rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:range xsd:string ;
+          rdfs:label "Escalera" .
+
+
+###  http://espaciosOcioMadrid/EstacionBicicleta
+:EstacionBicicleta rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf owl:topDataProperty ;
+                   rdfs:range xsd:string ;
+                   rdfs:label "EstacionBicicleta" .
+
+
+###  http://espaciosOcioMadrid/NumeroCalle
+:NumeroCalle rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:range xsd:nonNegativeInteger ;
+             rdfs:label "NumeroCalle" .
+
+
+###  http://espaciosOcioMadrid/Orientacion
+:Orientacion rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:range xsd:string ;
+             rdfs:label "Orientacion" .
+
+
+###  http://espaciosOcioMadrid/Planta
+:Planta rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty ;
+        rdfs:range xsd:string ;
+        rdfs:label "Planta" .
+
+
+###  http://espaciosOcioMadrid/Puerta
+:Puerta rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty ;
+        rdfs:range xsd:string ;
+        rdfs:label "Puerta" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://espaciosOcioMadrid/
+<http://espaciosOcioMadrid/> rdf:type owl:Class ;
+                             rdfs:subClassOf owl:Thing .
+
+
+###  http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos
+:CulturalesSocialesCientificosArtisticos rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://espaciosOcioMadrid/> ;
+                                         rdfs:label "Culturales, Sociales, Científicos y Artisticos"@es .
+
+
+###  http://espaciosOcioMadrid/Deportivos
+:Deportivos rdf:type owl:Class ;
+            rdfs:subClassOf <http://espaciosOcioMadrid/> ;
+            rdfs:label "Deportivos"@es .
+
+
+###  http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/AuditoriosSalasConcierto
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/AuditoriosSalasConcierto> rdf:type owl:Class ;
+                                                                                             rdfs:subClassOf :CulturalesSocialesCientificosArtisticos ;
+                                                                                             rdfs:label "Auditorios Salas Concierto"@es .
+
+
+###  http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosCulturales
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosCulturales> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf :CulturalesSocialesCientificosArtisticos ;
+                                                                                      rdfs:label "Centros Culturales"@es .
+
+
+###  http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosServiciosSociales
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosServiciosSociales> rdf:type owl:Class ;
+                                                                                             rdfs:subClassOf :CulturalesSocialesCientificosArtisticos ;
+                                                                                             rdfs:label "Centros servicios Sociales"@es .
+
+
+###  http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CinesFilmotecas
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CinesFilmotecas> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf :CulturalesSocialesCientificosArtisticos ;
+                                                                                    rdfs:label "Cines Filmotecas"@es .
+
+
+###  http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/FundacionesCulturales
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/FundacionesCulturales> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf :CulturalesSocialesCientificosArtisticos ;
+                                                                                          rdfs:label "Fundaciones Culturales"@es .
+
+
+###  http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/MonumentosEdificiosArtisticos
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/MonumentosEdificiosArtisticos> rdf:type owl:Class ;
+                                                                                                  rdfs:subClassOf :CulturalesSocialesCientificosArtisticos ;
+                                                                                                  rdfs:label "Monumenos Edificios Artísticos"@es .
+
+
+###  http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Museos
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Museos> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf :CulturalesSocialesCientificosArtisticos ;
+                                                                           rdfs:label "Museos"@es .
+
+
+###  http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Planetarios
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Planetarios> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf :CulturalesSocialesCientificosArtisticos ;
+                                                                                rdfs:label "Planetarios"@es .
+
+
+###  http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasEstudioLecturas
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasEstudioLecturas> rdf:type owl:Class ;
+                                                                                         rdfs:subClassOf :CulturalesSocialesCientificosArtisticos ;
+                                                                                         rdfs:label "Salas Estudio Lecturas"@es .
+
+
+###  http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasExposiciones
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasExposiciones> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf :CulturalesSocialesCientificosArtisticos ;
+                                                                                      rdfs:label "Salas Exposiciones"@es .
+
+
+###  http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Teatro
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Teatro> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf :CulturalesSocialesCientificosArtisticos ;
+                                                                           rdfs:label "Teatro"@es .
+
+
+###  http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosIglesiasCatolica
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosIglesiasCatolica> rdf:type owl:Class ;
+                                                                                            rdfs:subClassOf :CulturalesSocialesCientificosArtisticos ;
+                                                                                            rdfs:label "Templos Iglesias Catolica"@es .
+
+
+###  http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosOtras
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosOtras> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf :CulturalesSocialesCientificosArtisticos ;
+                                                                                 rdfs:label "Templos Otras Religiones"@es .
+
+
+###  http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/oficinaInformacionJuvenil
+<http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/oficinaInformacionJuvenil> rdf:type owl:Class ;
+                                                                                              rdfs:subClassOf :CulturalesSocialesCientificosArtisticos ;
+                                                                                              rdfs:label "Oficinas Información Juvenil"@es .
+
+
+###  http://espaciosOcioMadrid/Deportivos/CamposEstadiosFultbol
+<http://espaciosOcioMadrid/Deportivos/CamposEstadiosFultbol> rdf:type owl:Class ;
+                                                             rdfs:subClassOf :Deportivos ;
+                                                             rdfs:label "Campos Estadios Futbol"@es .
+
+
+###  http://espaciosOcioMadrid/Deportivos/CentrosDeportivos
+<http://espaciosOcioMadrid/Deportivos/CentrosDeportivos> rdf:type owl:Class ;
+                                                         rdfs:subClassOf :Deportivos ;
+                                                         rdfs:label "Centros Deportivos"@es .
+
+
+###  http://espaciosOcioMadrid/Deportivos/Embarcaderos
+<http://espaciosOcioMadrid/Deportivos/Embarcaderos> rdf:type owl:Class ;
+                                                    rdfs:subClassOf :Deportivos ;
+                                                    rdfs:label "Embarcaderos"@es .
+
+
+###  http://espaciosOcioMadrid/Deportivos/Gimnasios
+<http://espaciosOcioMadrid/Deportivos/Gimnasios> rdf:type owl:Class ;
+                                                 rdfs:subClassOf :Deportivos ;
+                                                 rdfs:label "Gimnasios"@es .
+
+
+###  http://espaciosOcioMadrid/Deportivos/Piscinas
+<http://espaciosOcioMadrid/Deportivos/Piscinas> rdf:type owl:Class ;
+                                                rdfs:subClassOf :Deportivos ;
+                                                rdfs:label "Piscinas"@es .
+
+
+###  http://espaciosOcioMadrid/Deportivos/PistaBadminton
+<http://espaciosOcioMadrid/Deportivos/PistaBadminton> rdf:type owl:Class ;
+                                                      rdfs:subClassOf :Deportivos ;
+                                                      rdfs:label "Pistas Badminton"@es .
+
+
+###  http://espaciosOcioMadrid/Deportivos/PistaPatinaje
+<http://espaciosOcioMadrid/Deportivos/PistaPatinaje> rdf:type owl:Class ;
+                                                     rdfs:subClassOf :Deportivos ;
+                                                     rdfs:label "Pistas Patinaje"@es .
+
+
+###  http://espaciosOcioMadrid/ParquesyJardines/
+<http://espaciosOcioMadrid/ParquesyJardines/> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://espaciosOcioMadrid/> ;
+                                              rdfs:label "Parques y Jardínes"@es .
+
+
+###  http://espaciosOcioMadrid/ParquesyJardines/ColeccionesBotanicas
+<http://espaciosOcioMadrid/ParquesyJardines/ColeccionesBotanicas> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <http://espaciosOcioMadrid/ParquesyJardines/> ;
+                                                                  rdfs:label "Colecciones Botanicas"@es .
+
+
+###  http://espaciosOcioMadrid/ParquesyJardines/ParquesForestales
+<http://espaciosOcioMadrid/ParquesyJardines/ParquesForestales> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <http://espaciosOcioMadrid/ParquesyJardines/> ;
+                                                               rdfs:label "Parques Forestales"@es .
+
+
+###  http://espaciosOcioMadrid/ParquesyJardines/ParquesHistoricos
+<http://espaciosOcioMadrid/ParquesyJardines/ParquesHistoricos> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <http://espaciosOcioMadrid/ParquesyJardines/> ;
+                                                               rdfs:label "Parques Históricos"@es .
+
+
+###  http://espaciosOcioMadrid/ParquesyJardines/ParquesJardines
+<http://espaciosOcioMadrid/ParquesyJardines/ParquesJardines> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <http://espaciosOcioMadrid/ParquesyJardines/> ;
+                                                             rdfs:label "Parques Jardines"@es .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://espaciosOcioMadrid/>
+                :CulturalesSocialesCientificosArtisticos
+                :Deportivos
+                <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/AuditoriosSalasConcierto>
+                <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosCulturales>
+                <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosServiciosSociales>
+                <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CinesFilmotecas>
+                <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/FundacionesCulturales>
+                <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/MonumentosEdificiosArtisticos>
+                <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Museos>
+                <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Planetarios>
+                <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasEstudioLecturas>
+                <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasExposiciones>
+                <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Teatro>
+                <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosIglesiasCatolica>
+                <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosOtras>
+                <http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/oficinaInformacionJuvenil>
+                <http://espaciosOcioMadrid/Deportivos/CamposEstadiosFultbol>
+                <http://espaciosOcioMadrid/Deportivos/CentrosDeportivos>
+                <http://espaciosOcioMadrid/Deportivos/Embarcaderos>
+                <http://espaciosOcioMadrid/Deportivos/Gimnasios>
+                <http://espaciosOcioMadrid/Deportivos/Piscinas>
+                <http://espaciosOcioMadrid/Deportivos/PistaBadminton>
+                <http://espaciosOcioMadrid/Deportivos/PistaPatinaje>
+                <http://espaciosOcioMadrid/ParquesyJardines/>
+                <http://espaciosOcioMadrid/ParquesyJardines/ColeccionesBotanicas>
+                <http://espaciosOcioMadrid/ParquesyJardines/ParquesForestales>
+                <http://espaciosOcioMadrid/ParquesyJardines/ParquesHistoricos>
+                <http://espaciosOcioMadrid/ParquesyJardines/ParquesJardines>
+              )
+] .
+
+
+###  Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/
