@@ -1,0 +1,35 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "http://espaciosOcioMadrid/ParquesyJardines/ParquesHistoricos" "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosIglesiasCatolica" "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CinesFilmotecas" "base:" "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Teatro" "http://espaciosOcioMadrid/ParquesyJardines/ColeccionesBotanicas" "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasEstudioLecturas" "http://espaciosOcioMadrid/ParquesyJardines/ParquesForestales" "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/FundacionesCulturales" "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/MonumentosEdificiosArtisticos" "http://espaciosOcioMadrid/Deportivos/Gimnasios" "http://espaciosOcioMadrid/Deportivos/CamposEstadiosFultbol" "http://espaciosOcioMadrid/Deportivos/Embarcaderos" "base:Deportivos" "http://espaciosOcioMadrid/Deportivos/CentrosDeportivos" "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasExposiciones" "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Planetarios" "base:CulturalesSocialesCientificosArtisticos" "http://espaciosOcioMadrid/ParquesyJardines/" "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosCulturales" "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosOtras" "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Museos" "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/AuditoriosSalasConcierto" "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/oficinaInformacionJuvenil" "http://espaciosOcioMadrid/Deportivos/Piscinas" "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosServiciosSociales" "http://espaciosOcioMadrid/ParquesyJardines/ParquesJardines" "http://espaciosOcioMadrid/Deportivos/PistaPatinaje" "http://espaciosOcioMadrid/Deportivos/PistaBadminton" ; /*classes style*/
+	"base:Deportivos" -> "base:" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/AuditoriosSalasConcierto" -> "base:CulturalesSocialesCientificosArtisticos" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosServiciosSociales" -> "base:CulturalesSocialesCientificosArtisticos" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/MonumentosEdificiosArtisticos" -> "base:CulturalesSocialesCientificosArtisticos" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/ParquesyJardines/ParquesJardines" -> "http://espaciosOcioMadrid/ParquesyJardines/" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CinesFilmotecas" -> "base:CulturalesSocialesCientificosArtisticos" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/Deportivos/Embarcaderos" -> "base:Deportivos" [ label = "rdfs:subClassOf" ];
+	"base:" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"base:CulturalesSocialesCientificosArtisticos" -> "base:" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasExposiciones" -> "base:CulturalesSocialesCientificosArtisticos" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/Deportivos/PistaPatinaje" -> "base:Deportivos" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/ParquesyJardines/" -> "base:" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Teatro" -> "base:CulturalesSocialesCientificosArtisticos" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasEstudioLecturas" -> "base:CulturalesSocialesCientificosArtisticos" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/oficinaInformacionJuvenil" -> "base:CulturalesSocialesCientificosArtisticos" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/ParquesyJardines/ParquesHistoricos" -> "http://espaciosOcioMadrid/ParquesyJardines/" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/Deportivos/PistaBadminton" -> "base:Deportivos" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Museos" -> "base:CulturalesSocialesCientificosArtisticos" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/Deportivos/Gimnasios" -> "base:Deportivos" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/Deportivos/CentrosDeportivos" -> "base:Deportivos" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/ParquesyJardines/ParquesForestales" -> "http://espaciosOcioMadrid/ParquesyJardines/" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/Deportivos/CamposEstadiosFultbol" -> "base:Deportivos" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/FundacionesCulturales" -> "base:CulturalesSocialesCientificosArtisticos" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Planetarios" -> "base:CulturalesSocialesCientificosArtisticos" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosCulturales" -> "base:CulturalesSocialesCientificosArtisticos" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/ParquesyJardines/ColeccionesBotanicas" -> "http://espaciosOcioMadrid/ParquesyJardines/" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosIglesiasCatolica" -> "base:CulturalesSocialesCientificosArtisticos" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosOtras" -> "base:CulturalesSocialesCientificosArtisticos" [ label = "rdfs:subClassOf" ];
+	"http://espaciosOcioMadrid/Deportivos/Piscinas" -> "base:Deportivos" [ label = "rdfs:subClassOf" ];
+
+}

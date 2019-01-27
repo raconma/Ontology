@@ -1,0 +1,137 @@
+{
+  "@context" : {
+    "" : {
+      "@id" : "http://espaciosOcioMadrid/"
+    },
+    "Deportivos" : {
+      "@id" : "http://espaciosOcioMadrid/Deportivos"
+    },
+    "Embarcaderos" : {
+      "@id" : "http://espaciosOcioMadrid/Deportivos/Embarcaderos"
+    },
+    "TemplosIglesiasCatolica" : {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosIglesiasCatolica"
+    },
+    "PistaBadminton" : {
+      "@id" : "http://espaciosOcioMadrid/Deportivos/PistaBadminton"
+    },
+    "Planetarios" : {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Planetarios"
+    },
+    "ClaseVial" : {
+      "@id" : "http://espaciosOcioMadrid/ClaseVial",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ParquesHistoricos" : {
+      "@id" : "http://espaciosOcioMadrid/ParquesyJardines/ParquesHistoricos"
+    },
+    "Equipamiento" : {
+      "@id" : "http://espaciosOcioMadrid/Equipamiento",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "FundacionesCulturales" : {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/FundacionesCulturales"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "CamposEstadiosFultbol" : {
+      "@id" : "http://espaciosOcioMadrid/Deportivos/CamposEstadiosFultbol"
+    },
+    "Orientacion" : {
+      "@id" : "http://espaciosOcioMadrid/Orientacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "CentrosCulturales" : {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosCulturales"
+    },
+    "ColeccionesBotanicas" : {
+      "@id" : "http://espaciosOcioMadrid/ParquesyJardines/ColeccionesBotanicas"
+    },
+    "NumeroCalle" : {
+      "@id" : "http://espaciosOcioMadrid/NumeroCalle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+    },
+    "Piscinas" : {
+      "@id" : "http://espaciosOcioMadrid/Deportivos/Piscinas"
+    },
+    "ParquesForestales" : {
+      "@id" : "http://espaciosOcioMadrid/ParquesyJardines/ParquesForestales"
+    },
+    "CentrosServiciosSociales" : {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosServiciosSociales"
+    },
+    "ParquesJardines" : {
+      "@id" : "http://espaciosOcioMadrid/ParquesyJardines/ParquesJardines"
+    },
+    "Teatro" : {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Teatro"
+    },
+    "Escalera" : {
+      "@id" : "http://espaciosOcioMadrid/Escalera",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "CinesFilmotecas" : {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CinesFilmotecas"
+    },
+    "Distrito" : {
+      "@id" : "http://espaciosOcioMadrid/Distrito",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Puerta" : {
+      "@id" : "http://espaciosOcioMadrid/Puerta",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Gimnasios" : {
+      "@id" : "http://espaciosOcioMadrid/Deportivos/Gimnasios"
+    },
+    "AuditoriosSalasConcierto" : {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/AuditoriosSalasConcierto"
+    },
+    "oficinaInformacionJuvenil" : {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/oficinaInformacionJuvenil"
+    },
+    "SalasEstudioLecturas" : {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasEstudioLecturas"
+    },
+    "SalasExposiciones" : {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasExposiciones"
+    },
+    "Museos" : {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Museos"
+    },
+    "EstacionBicicleta" : {
+      "@id" : "http://espaciosOcioMadrid/EstacionBicicleta",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "CentrosDeportivos" : {
+      "@id" : "http://espaciosOcioMadrid/Deportivos/CentrosDeportivos"
+    },
+    "CulturalesSocialesCientificosArtisticos" : {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos"
+    },
+    "Barrio" : {
+      "@id" : "http://espaciosOcioMadrid/Barrio",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "PistaPatinaje" : {
+      "@id" : "http://espaciosOcioMadrid/Deportivos/PistaPatinaje"
+    },
+    "Planta" : {
+      "@id" : "http://espaciosOcioMadrid/Planta",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "TemplosOtras" : {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosOtras"
+    },
+    "MonumentosEdificiosArtisticos" : {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/MonumentosEdificiosArtisticos"
+    }
+  }
+}

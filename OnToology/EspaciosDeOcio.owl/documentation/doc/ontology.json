@@ -1,0 +1,477 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://espaciosOcioMadrid/"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/Deportivos"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/AuditoriosSalasConcierto"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosCulturales"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosServiciosSociales"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CinesFilmotecas"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/FundacionesCulturales"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/MonumentosEdificiosArtisticos"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Museos"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Planetarios"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasEstudioLecturas"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasExposiciones"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Teatro"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosIglesiasCatolica"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosOtras"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/oficinaInformacionJuvenil"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/Deportivos/CamposEstadiosFultbol"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/Deportivos/CentrosDeportivos"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/Deportivos/Embarcaderos"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/Deportivos/Gimnasios"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/Deportivos/Piscinas"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/Deportivos/PistaBadminton"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/Deportivos/PistaPatinaje"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/ParquesyJardines/"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/ParquesyJardines/ColeccionesBotanicas"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/ParquesyJardines/ParquesForestales"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/ParquesyJardines/ParquesHistoricos"
+    }, {
+      "@id" : "http://espaciosOcioMadrid/ParquesyJardines/ParquesJardines"
+    } ]
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Espacios de ocio"
+  }, {
+    "@value" : "Espacios de ocio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/Barrio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Barrio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/ClaseVial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ClaseVial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Culturales, Sociales, Científicos y Artisticos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/AuditoriosSalasConcierto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Auditorios Salas Concierto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosCulturales",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Centros Culturales"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CentrosServiciosSociales",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Centros servicios Sociales"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/CinesFilmotecas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Cines Filmotecas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/FundacionesCulturales",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Fundaciones Culturales"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/MonumentosEdificiosArtisticos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Monumenos Edificios Artísticos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Museos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Museos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Planetarios",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Planetarios"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasEstudioLecturas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Salas Estudio Lecturas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/SalasExposiciones",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Salas Exposiciones"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/Teatro",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Teatro"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosIglesiasCatolica",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Templos Iglesias Catolica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/TemplosOtras",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Templos Otras Religiones"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos/oficinaInformacionJuvenil",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Oficinas Información Juvenil"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/CulturalesSocialesCientificosArtisticos"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/Deportivos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Deportivos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/Deportivos/CamposEstadiosFultbol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Campos Estadios Futbol"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/Deportivos"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/Deportivos/CentrosDeportivos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Centros Deportivos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/Deportivos"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/Deportivos/Embarcaderos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Embarcaderos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/Deportivos"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/Deportivos/Gimnasios",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Gimnasios"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/Deportivos"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/Deportivos/Piscinas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Piscinas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/Deportivos"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/Deportivos/PistaBadminton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Pistas Badminton"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/Deportivos"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/Deportivos/PistaPatinaje",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Pistas Patinaje"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/Deportivos"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/Distrito",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Distrito"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/Equipamiento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Equipamiento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/Escalera",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Escalera"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/EstacionBicicleta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "EstacionBicicleta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/NumeroCalle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "NumeroCalle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/Orientacion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Orientacion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/ParquesyJardines/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Parques y Jardínes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/ParquesyJardines/ColeccionesBotanicas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Colecciones Botanicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/ParquesyJardines/"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/ParquesyJardines/ParquesForestales",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Parques Forestales"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/ParquesyJardines/"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/ParquesyJardines/ParquesHistoricos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Parques Históricos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/ParquesyJardines/"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/ParquesyJardines/ParquesJardines",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Parques Jardines"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://espaciosOcioMadrid/ParquesyJardines/"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/Planta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Planta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://espaciosOcioMadrid/Puerta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Puerta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+} ]
